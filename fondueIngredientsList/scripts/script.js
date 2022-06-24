@@ -12,7 +12,7 @@ function calculate() {
     let duration = inputDuration.value;
 
 
-    let qtTotalBread = breadPP(duration) * adults + (breadPP(duration) / 2 * kids);
+    let qtTotalBaguette = baguettePP(duration) * adults + (baguettePP(duration) / 2 * kids);
     let qtTotalCheese = cheesePP(duration) * adults + (cheesePP(duration) / 2 * kids);
     let qtTotalWine = winePP(duration) * adults;
     
@@ -20,7 +20,7 @@ function calculate() {
     result.innerHTML = `
     <div class="resultDiv">
     <img src="./assets/baguette.png">
-    <p>${qtTotalBread / 2500} Kg of bread.</p>
+    <p>${qtTotalBaguette / 2500} Kg of baguette.</p>
     </div>
     `
     
@@ -43,7 +43,7 @@ function calculate() {
 
 }
 
-function breadPP(duration) {
+function baguettePP(duration) {
     if (duration >= 2) {
         return 650;
     } else {
