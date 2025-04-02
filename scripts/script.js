@@ -1,4 +1,4 @@
-let inputAdults = document.getElementById("adults");
+let inputAdults = document.getElementById("adults")
 let inputKids = document.getElementById("kids");
 let inputDuration = document.getElementById("duration");
 
