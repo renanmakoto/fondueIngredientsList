@@ -5,7 +5,7 @@ let inputDuration = document.getElementById("duration")
 let result = document.getElementById("result")
 
 function calculate() {
-    console.log("Calculating...");
+    console.log("Calculating...")
 
     let adults = inputAdults.value;
     let kids = inputKids.value;
