@@ -9,7 +9,7 @@ function calculate() {
 
     let adults = inputAdults.value
     let kids = inputKids.value
-    let duration = inputDuration.value;
+    let duration = inputDuration.value
 
 
     let qtTotalBaguette = baguettePP(duration) * adults + (baguettePP(duration) / 2 * kids);
