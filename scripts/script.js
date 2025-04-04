@@ -8,7 +8,7 @@ function calculate() {
     console.log("Calculating...")
 
     let adults = inputAdults.value
-    let kids = inputKids.value;
+    let kids = inputKids.value
     let duration = inputDuration.value;
 
 
