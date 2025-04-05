@@ -28,8 +28,7 @@ function calculate() {
     <p>${Math.ceil(qtTotalCheese / 3000)} Kg of cheese.</p>
     </div>
     `
-    
-    
+     
     result.innerHTML += `
     <div class="resultDiv">
     <img src="./assets/wine-bottle.png">
