@@ -53,6 +53,7 @@ function cheesePP(duration) {
         return 1000;
     }
 }
+
 function winePP(duration) {
     if (duration >= 2) {
         return 2000;
