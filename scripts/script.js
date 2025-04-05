@@ -15,7 +15,6 @@ function calculate() {
     let qtTotalCheese = cheesePP(duration) * adults + (cheesePP(duration) / 2 * kids)
     let qtTotalWine = winePP(duration) * adults
     
-
     result.innerHTML = `
     <div class="resultDiv">
     <img src="./assets/baguette.png">
