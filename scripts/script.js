@@ -22,7 +22,6 @@ function calculate() {
     </div>
     `
     
-    
     result.innerHTML += `
     <div class="resultDiv">
     <img src="./assets/parmesan.png">
