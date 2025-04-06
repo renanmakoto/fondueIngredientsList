@@ -35,7 +35,6 @@ function calculate() {
     <p>${Math.ceil(qtTotalWine / 20000)} litre(s) of wine (adults only).</p>
     </div>
     `
-
 }
 
 function baguettePP(duration) {
