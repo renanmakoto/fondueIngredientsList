@@ -1,7 +1,6 @@
 let inputAdults = document.getElementById("adults")
 let inputKids = document.getElementById("kids")
 let inputDuration = document.getElementById("duration")
-
 let result = document.getElementById("result")
 
 function calculate() {
